@@ -1,0 +1,11 @@
+Build a CentOS 7 server within Virtualbox and install docker. Server requirements; 
+2vCPUs
+8GB RAM
+20GB HDD for root partition mounted at /
+20GB HDD for data partition mounted at /data
+Ensure these disks are configured in istallation to use LVM
+Set hostname to be something unique and recognisable
+Grant SSH access to the server using public keys, make sure to disable password authentication for SSH connection
+Install docker and configure the docker service to use the /data partition as a data root
+Install rundeck, jenkins and prometheus as docker containers/services
+Expand disk(s) with an additional 20GB and Increase the disk space on the /data patition to 40GB using LVM
