@@ -10,7 +10,6 @@
 ``` 
 1. git clone https://github.com/Spartabariallali/linux_server_administration.git
 
-
 2. cd linux-server-administration 
 
 3. vagrant up 
@@ -19,7 +18,7 @@
    192.168.100.10:4440 - Prometheus service
    192.168.100.10:9090 - RunDeck service 
 
-   
+
 ```
 
 
